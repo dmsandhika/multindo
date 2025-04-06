@@ -289,7 +289,7 @@ class Karyawan extends BaseController
             'tahun_psikologi' => $this->request->getPost('tahun_psikologi') ?? null,
             'lama_psikologi' => $this->request->getPost('lama_psikologi') ?? null,
             'diagnosa' => $this->request->getPost('diagnosa_psikologi') ?? null,
-            'tempat_rawat' => $this->request->getPost('tempat_rawat_psikologi') ?? null,
+            'keperluan' => $this->request->getPost('keperluan') ?? null,
             'evaluasi' => $this->request->getPost('evaluasi_psikologi') ?? null,
             'alasan_evaluasi' => $this->request->getPost('alasan_evaluasi') ?? null,
         ]),
